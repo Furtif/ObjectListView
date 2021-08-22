@@ -28,11 +28,11 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 using System.ComponentModel;
 
-namespace BrightIdeasSoftware {
+namespace BrightIdeasSoftware
+{
 
     /// <summary>
     /// A ListViewSubItem that knows which image should be drawn against it.

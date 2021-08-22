@@ -35,12 +35,11 @@
 
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Text;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace BrightIdeasSoftware {
+namespace BrightIdeasSoftware
+{
 
     /// <summary>
     /// OLVListItems are specialized ListViewItems that know which row object they came from,

@@ -36,11 +36,11 @@
 
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Drawing;
 
-namespace BrightIdeasSoftware {
+namespace BrightIdeasSoftware
+{
 
     public interface ITextMatchFilter: IModelFilter {
         /// <summary>

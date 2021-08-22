@@ -25,11 +25,8 @@
  * If you wish to use this code in a closed source application, please contact phillip.piper@gmail.com.
  */
 
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BrightIdeasSoftware {
+namespace BrightIdeasSoftware
+{
 
     public partial class ObjectListView {
         /// <summary>

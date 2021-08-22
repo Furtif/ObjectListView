@@ -27,10 +27,10 @@
 
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Windows.Forms;
 
-namespace BrightIdeasSoftware {
+namespace BrightIdeasSoftware
+{
 
     /// <summary>
     /// This class contains all the settings used when groups are created

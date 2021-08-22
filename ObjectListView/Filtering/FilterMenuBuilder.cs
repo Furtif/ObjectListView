@@ -34,12 +34,12 @@
 
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Windows.Forms;
 using System.Collections;
 using System.Drawing;
 
-namespace BrightIdeasSoftware {
+namespace BrightIdeasSoftware
+{
 
     /// <summary>
     /// Instances of this class know how to build a Filter menu.

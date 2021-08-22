@@ -26,11 +26,10 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Windows.Forms;
 
-namespace BrightIdeasSoftware {
+namespace BrightIdeasSoftware
+{
 
     /// <summary>
     /// An indication of where a hit was within ObjectListView cell

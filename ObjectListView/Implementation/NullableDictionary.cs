@@ -25,12 +25,11 @@
  * If you wish to use this code in a closed source application, please contact phillip.piper@gmail.com.
  */
 
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Collections;
 
-namespace BrightIdeasSoftware {
+namespace BrightIdeasSoftware
+{
 
     /// <summary>
     /// A simple-minded implementation of a Dictionary that can handle null as a key.

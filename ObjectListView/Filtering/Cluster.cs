@@ -26,10 +26,9 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace BrightIdeasSoftware {
+namespace BrightIdeasSoftware
+{
 
     /// <summary>
     /// Concrete implementation of the ICluster interface.

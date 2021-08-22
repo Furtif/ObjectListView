@@ -27,9 +27,9 @@
 
 using System;
 using System.Collections;
-using System.Text;
 
-namespace BrightIdeasSoftware {
+namespace BrightIdeasSoftware
+{
 
     /// <summary>
     /// This class provides a useful base implementation of a clustering

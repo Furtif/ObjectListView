@@ -28,11 +28,11 @@
 
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Windows.Forms;
 using System.Reflection;
 
-namespace BrightIdeasSoftware {
+namespace BrightIdeasSoftware
+{
 
     /// <summary>
     /// A delegate that creates an editor for the given value

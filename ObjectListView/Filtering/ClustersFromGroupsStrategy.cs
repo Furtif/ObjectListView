@@ -26,10 +26,9 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace BrightIdeasSoftware {
+namespace BrightIdeasSoftware
+{
 
     /// <summary>
     /// This class calculates clusters from the groups that the column uses.

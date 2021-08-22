@@ -28,12 +28,10 @@
  * If you wish to use this code in a closed source application, please contact phillip.piper@gmail.com.
  */
 
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Text;
 
-namespace BrightIdeasSoftware{
+namespace BrightIdeasSoftware
+{
 
     /// <summary>
     /// Implementation of this interface control the selecting of cluster keys
