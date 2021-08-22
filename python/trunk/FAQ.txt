@@ -1,5 +1,0 @@
-
-F.A.Q.
-======
-
-The full FAQ is available at ./docs/faq.rst
