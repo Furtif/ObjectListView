@@ -4,4 +4,4 @@ This is a fork of https://sourceforge.net/p/objectlistview/code/
 ### [Readme](http://objectlistview.sourceforge.net/cs/index.html)
 ### [Discution](https://sourceforge.net/p/objectlistview/discussion)
 ## [Credits]
-### [Brought to you by: grammarian](https://sourceforge.net/u/grammarian)
+### [Phillip Piper](https://sourceforge.net/u/grammarian)
