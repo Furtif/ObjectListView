@@ -23,8 +23,8 @@
     <Authors>Phillip Piper</Authors>
     <Copyright>Copyright ©  2006-2016</Copyright>
     <RootNamespace>BrightIdeasSoftware</RootNamespace>
-	<AssemblyName>ObjectListView</AssemblyName>
-	<GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
+    <AssemblyName>ObjectListView</AssemblyName>
+    <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
