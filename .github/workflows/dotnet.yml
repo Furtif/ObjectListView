@@ -8,19 +8,24 @@ on:
 
 jobs:
   build:
-    name: Test on .NET ${{ matrix.dotnet }} and ${{ matrix.os }}
+    # ObjectListView targets net481 + WinForms (System.Windows.Forms):
+    # it can only build on Windows. Running it on ubuntu/macOS fails,
+    # and the old pinned SDK 5.0.202 has no arm64 macOS hostfxr, which
+    # causes:
+    #   Failed to load libhostfxr.dylib ... (have 'arm64', need 'x86_64')
+    name: Build on ${{ matrix.os }} with .NET ${{ matrix.dotnet }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        dotnet: [ '5.0.202' ]
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+        dotnet: [ '8.0.x' ]
+        os: [windows-latest]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Setup .NET
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ matrix.dotnet }}
       - name: Install dependencies
         run: dotnet restore
       - name: Build project
-        run: dotnet build
+        run: dotnet build --no-restore --configuration Release
